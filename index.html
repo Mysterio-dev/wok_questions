@@ -1,0 +1,2146 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20230221083907" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png" />
+	<link rel="manifest" href="img/favicon/site.webmanifest" />
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<nav class="menu__body">
+				<div class="menu__logo">
+					<a href="#">
+						<img src="img/icons/logo.svg" alt="">
+					</a>
+				</div>
+				<button type="button" class="btn__close js-menu">
+					<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M20.3125 5.6875L5.6875 20.3125" stroke="#140A07" stroke-linecap="round" stroke-linejoin="round"></path>
+						<path d="M20.3125 20.3125L5.6875 5.6875" stroke="#140A07" stroke-linecap="round" stroke-linejoin="round"></path>
+					</svg>
+				</button>
+				<ul class="menu__list">
+					<li class="menu__item">
+						<div class="menu__location">
+							<button type="button" class="menu__location-button">
+								Доставить на <span class="menu__location-address">Восстания 56</span>
+							</button>
+						</div>
+					</li>
+					<li class="menu__item">
+						<a href="" class="menu__login">
+							<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M9 9C11.0711 9 12.75 7.32107 12.75 5.25C12.75 3.17893 11.0711 1.5 9 1.5C6.92893 1.5 5.25 3.17893 5.25 5.25C5.25 7.32107 6.92893 9 9 9Z" stroke="#140A07" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M15.4425 16.5C15.4425 13.5975 12.555 11.25 8.99999 11.25C5.44499 11.25 2.5575 13.5975 2.5575 16.5" stroke="#140A07" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+							<span>Личный кабинет</span>
+						</a>
+					</li>
+					<li class="menu__item">
+						<div class="menu__contacts">
+							<a class="menu__phone" href="tel:+79274941965">8 927 494-19-65</a>
+							<span class="menu__workTimeText">Работаем с 10:00 до 22:00</span>
+						</div>
+					</li>
+					<li class="menu__item">
+						<div class="menu__info">
+							<i class="menu__info-icon">
+								<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path opacity="0.4" d="M27.0625 12.5374C26.575 11.8374 25.7125 11.4374 24.725 11.4374H19.6C19.2625 11.4374 18.95 11.2999 18.7375 11.0499C18.5125 10.7999 18.425 10.4499 18.475 10.0874L19.1125 5.98741C19.3875 4.76241 18.575 3.38741 17.35 2.97491C16.2125 2.54991 14.875 3.12491 14.3375 3.93741L9.0625 11.7749L8.9125 12.0249V23.0749L9.1 23.2624L13.0625 26.3249C13.5875 26.8499 14.775 27.1374 15.6125 27.1374H20.4875C22.1625 27.1374 23.85 25.8749 24.225 24.3374L27.3 14.9749C27.625 14.0874 27.5375 13.2249 27.0625 12.5374Z" fill="#F15126" />
+									<path d="M6.5125 7.9751H5.225C3.2875 7.9751 2.5 8.7251 2.5 10.5751V23.1501C2.5 25.0001 3.2875 25.7501 5.225 25.7501H6.5125C8.45 25.7501 9.2375 25.0001 9.2375 23.1501V10.5751C9.2375 8.7251 8.45 7.9751 6.5125 7.9751Z" fill="#F15126" />
+								</svg>
+							</i>
+							<span class="menu__info-text">
+								Доставка китайской лапши в Казани
+							</span>
+						</div>
+					</li>
+					<div class="menu__item">
+						<div class="menu__info">
+							<i class="menu__info-icon">
+								<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path opacity="0.4" d="M22.55 16.9375C22.025 17.45 21.725 18.1875 21.8 18.975C21.9125 20.325 23.15 21.3125 24.5 21.3125H26.875V22.8C26.875 25.3875 24.7625 27.5 22.175 27.5H7.825C5.2375 27.5 3.125 25.3875 3.125 22.8V14.3875C3.125 11.8 5.2375 9.6875 7.825 9.6875H22.175C24.7625 9.6875 26.875 11.8 26.875 14.3875V16.1875H24.35C23.65 16.1875 23.0125 16.4625 22.55 16.9375Z" fill="#F15126" />
+									<path d="M18.5625 4.93753V9.68752H7.825C5.2375 9.68752 3.125 11.8 3.125 14.3875V9.80005C3.125 8.31255 4.0375 6.9875 5.425 6.4625L15.35 2.7125C16.9 2.1375 18.5625 3.27503 18.5625 4.93753Z" fill="#F15126" />
+									<path d="M28.2 17.4624V20.0375C28.2 20.725 27.65 21.2875 26.95 21.3125H24.5C23.15 21.3125 21.9125 20.325 21.8 18.975C21.725 18.1875 22.025 17.45 22.55 16.9375C23.0125 16.4625 23.65 16.1875 24.35 16.1875H26.95C27.65 16.2125 28.2 16.7749 28.2 17.4624Z" fill="#F15126" />
+									<path d="M17.5 15.9375H8.75C8.2375 15.9375 7.8125 15.5125 7.8125 15C7.8125 14.4875 8.2375 14.0625 8.75 14.0625H17.5C18.0125 14.0625 18.4375 14.4875 18.4375 15C18.4375 15.5125 18.0125 15.9375 17.5 15.9375Z" fill="#F15126" />
+								</svg>
+							</i>
+							<span class="menu__info-text">
+								Доставляем бесплатно от 499 ₽
+							</span>
+						</div>
+					</div>
+				</ul>
+			</nav>
+			<div class="header__container">
+				<div class="header__wrapper">
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu js-menu"><span></span></button>
+
+					</div>
+					<div class="header__left">
+						<div class="header__logo">
+							<a href="#">
+								<img src="img/icons/logo.svg" alt="">
+							</a>
+						</div>
+						<div class="header__location">
+							<button type="button" class="header__location-button">
+								Доставить на <span class="header__location-address">Восстания 56</span>
+							</button>
+						</div>
+					</div>
+					<div class="header__right">
+						<div class="header__info">
+							<i class="header__info-icon">
+								<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path opacity="0.4" d="M27.0625 12.5374C26.575 11.8374 25.7125 11.4374 24.725 11.4374H19.6C19.2625 11.4374 18.95 11.2999 18.7375 11.0499C18.5125 10.7999 18.425 10.4499 18.475 10.0874L19.1125 5.98741C19.3875 4.76241 18.575 3.38741 17.35 2.97491C16.2125 2.54991 14.875 3.12491 14.3375 3.93741L9.0625 11.7749L8.9125 12.0249V23.0749L9.1 23.2624L13.0625 26.3249C13.5875 26.8499 14.775 27.1374 15.6125 27.1374H20.4875C22.1625 27.1374 23.85 25.8749 24.225 24.3374L27.3 14.9749C27.625 14.0874 27.5375 13.2249 27.0625 12.5374Z" fill="#F15126" />
+									<path d="M6.5125 7.9751H5.225C3.2875 7.9751 2.5 8.7251 2.5 10.5751V23.1501C2.5 25.0001 3.2875 25.7501 5.225 25.7501H6.5125C8.45 25.7501 9.2375 25.0001 9.2375 23.1501V10.5751C9.2375 8.7251 8.45 7.9751 6.5125 7.9751Z" fill="#F15126" />
+								</svg>
+							</i>
+							<span class="header__info-text">
+								Доставка китайской лапши в Казани
+							</span>
+						</div>
+						<div class="header__info">
+							<i class="header__info-icon">
+								<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path opacity="0.4" d="M22.55 16.9375C22.025 17.45 21.725 18.1875 21.8 18.975C21.9125 20.325 23.15 21.3125 24.5 21.3125H26.875V22.8C26.875 25.3875 24.7625 27.5 22.175 27.5H7.825C5.2375 27.5 3.125 25.3875 3.125 22.8V14.3875C3.125 11.8 5.2375 9.6875 7.825 9.6875H22.175C24.7625 9.6875 26.875 11.8 26.875 14.3875V16.1875H24.35C23.65 16.1875 23.0125 16.4625 22.55 16.9375Z" fill="#F15126" />
+									<path d="M18.5625 4.93753V9.68752H7.825C5.2375 9.68752 3.125 11.8 3.125 14.3875V9.80005C3.125 8.31255 4.0375 6.9875 5.425 6.4625L15.35 2.7125C16.9 2.1375 18.5625 3.27503 18.5625 4.93753Z" fill="#F15126" />
+									<path d="M28.2 17.4624V20.0375C28.2 20.725 27.65 21.2875 26.95 21.3125H24.5C23.15 21.3125 21.9125 20.325 21.8 18.975C21.725 18.1875 22.025 17.45 22.55 16.9375C23.0125 16.4625 23.65 16.1875 24.35 16.1875H26.95C27.65 16.2125 28.2 16.7749 28.2 17.4624Z" fill="#F15126" />
+									<path d="M17.5 15.9375H8.75C8.2375 15.9375 7.8125 15.5125 7.8125 15C7.8125 14.4875 8.2375 14.0625 8.75 14.0625H17.5C18.0125 14.0625 18.4375 14.4875 18.4375 15C18.4375 15.5125 18.0125 15.9375 17.5 15.9375Z" fill="#F15126" />
+								</svg>
+							</i>
+							<span class="header__info-text">
+								Доставляем бесплатно от 499 ₽
+							</span>
+						</div>
+						<div class="header__contacts">
+							<a class="header__phone" href="tel:+79274941965">8 927 494-19-65</a>
+							<span class="header__workTimeText">Работаем с 10:00 до 22:00</span>
+						</div>
+						<a href="" class="header__login">
+							<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M9 9C11.0711 9 12.75 7.32107 12.75 5.25C12.75 3.17893 11.0711 1.5 9 1.5C6.92893 1.5 5.25 3.17893 5.25 5.25C5.25 7.32107 6.92893 9 9 9Z" stroke="#140A07" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M15.4425 16.5C15.4425 13.5975 12.555 11.25 8.99999 11.25C5.44499 11.25 2.5575 13.5975 2.5575 16.5" stroke="#140A07" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</a>
+					</div>
+
+				</div>
+
+
+			</div>
+		</header>
+
+		<div class="header__menu">
+			<div class="header__container">
+				<div class="header__menu-wrap">
+					<div class="header__menu-container">
+						<div class="header__menu-icons">
+							<svg width="68" height="20" viewBox="0 0 68 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<circle cx="58" cy="10" r="10" fill="#F15126" />
+								<circle cx="34" cy="10" r="10" fill="#F15126" />
+								<path d="M58.28 14.6199L62.27 10.6299C63.25 9.6499 63.39 8.0399 62.48 6.9899C62.27 6.7099 61.99 6.4999 61.64 6.3599C61.29 6.2199 61.01 6.1499 60.66 6.1499C60.31 6.1499 59.96 6.2199 59.61 6.3599C59.26 6.4999 58.98 6.7099 58.77 6.9199L58 7.6199L57.37 6.9899C56.39 6.0099 54.78 5.8699 53.73 6.7799C53.45 6.9899 53.24 7.2699 53.1 7.6199C52.96 7.8999 52.89 8.2499 52.89 8.5999C52.89 8.9499 52.96 9.2999 53.1 9.6499C53.24 9.9999 53.45 10.2799 53.66 10.4899L57.79 14.6199C57.86 14.6899 57.93 14.7599 58.07 14.7599C58.07 14.6899 58.21 14.6899 58.28 14.6199Z" fill="white" />
+								<path d="M35.0555 3.65625C32.6547 5.03984 32.9445 8.93359 32.9445 8.93359C32.9445 8.93359 31.8891 8.57812 31.8891 6.99766C30.6258 7.73047 29.7781 9.13594 29.7781 10.7C29.7781 13.0297 31.6703 14.9219 34 14.9219C36.3297 14.9219 38.2219 13.0297 38.2219 10.7C38.2219 7.26563 35.0555 6.56016 35.0555 3.65625ZM34.3664 13.4672C33.5133 13.6805 32.6602 13.1609 32.4469 12.3133C32.2336 11.4656 32.7531 10.607 33.6008 10.3937C35.6516 9.87969 35.9031 8.73125 35.9031 8.73125C35.9031 8.73125 36.9258 12.8328 34.3664 13.4672Z" fill="white" />
+								<circle cx="10" cy="10" r="10" fill="#F15126" />
+								<path d="M8.59061 7.91648C9.01677 7.12025 8.71676 6.1293 7.92052 5.70314C7.12429 5.27698 6.13334 5.57699 5.70718 6.37322C5.28102 7.16946 5.58103 8.16041 6.37726 8.58657C7.1735 9.01273 8.16445 8.71272 8.59061 7.91648Z" fill="white" />
+								<path d="M13.3579 5.67952V5.68499C13.0079 5.41155 12.4938 5.47171 12.2094 5.82718L6.50005 13.1662C6.22662 13.5162 6.28677 14.0303 6.64224 14.3147C7.00318 14.5881 7.51177 14.528 7.79068 14.1725L13.5001 6.82796C13.7735 6.47249 13.7079 5.9639 13.3579 5.67952Z" fill="white" />
+								<path d="M12.8493 11.2139C11.9469 11.2139 11.2141 11.9467 11.2141 12.849C11.2141 13.7514 11.9469 14.4842 12.8493 14.4842C13.7516 14.4842 14.4844 13.7514 14.4844 12.849C14.4844 11.9467 13.7516 11.2139 12.8493 11.2139Z" fill="white" />
+							</svg>
+						</div>
+						<nav class="scroll-nav">
+							<div class="scroll-nav__slider swiper">
+								<div class="scroll-nav__wrapper swiper-wrapper">
+									<div class="scroll-nav__slide swiper-slide">
+										<a href="" class="scroll-nav__link">
+											Акции
+										</a>
+										<a href="" class="scroll-nav__link _active">
+											Хиты
+										</a>
+										<a href="" class="scroll-nav__link">
+											Вок
+										</a>
+									</div>
+									<div class="scroll-nav__slide swiper-slide">
+										<a href="" class="scroll-nav__link">
+											Супы
+										</a>
+										<a href="" class="scroll-nav__link">
+											Салаты
+										</a>
+										<a href="" class="scroll-nav__link">
+											Сэндвич-роллы
+										</a>
+									</div>
+									<div class="scroll-nav__slide swiper-slide">
+										<a href="" class="scroll-nav__link">
+											Десерты
+										</a>
+										<a href="" class="scroll-nav__link">
+											Напитки
+										</a>
+										<a href="" class="scroll-nav__link">
+											Соусы
+										</a>
+									</div>
+								</div>
+
+								<button type="button" class="scroll-nav__prev prev">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M12.5 16.25L6.25 10L12.5 3.75" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</button>
+								<button type="button" class="scroll-nav__next next">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.5 16.25L13.75 10L7.5 3.75" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</button>
+
+							</div>
+						</nav>
+					</div>
+
+					<div class="header__basket js-basket">
+						<span class="header__basket-count">
+							3
+						</span>
+						<p class="header__basket-text">
+							Корзина
+						</p>
+						<i class="header__basket-icon">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M8.40002 5.5H15.6C19 5.5 19.34 7.09 19.57 9.03L20.47 16.53C20.76 18.99 20 21 16.5 21H7.51003C4.00003 21 3.24002 18.99 3.54002 16.53L4.44003 9.03C4.66003 7.09 5.00002 5.5 8.40002 5.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M8 7V3.5C8 2 9 1 10.5 1H13.5C15 1 16 2 16 3.5V7" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M20.41 16.03H8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<main class="page">
+
+			<section class="carousel">
+				<div class="carousel__container">
+					<div class="carousel__slider-container">
+						<div class="carousel__slider swiper">
+							<div class="carousel__wrapper swiper-wrapper">
+								<div class="carousel__slide swiper-slide" style="border-color: #E4D58F">
+									<div class="carousel__item" style="background: #8A7D3D">
+										<div class="carousel__item-wrap">
+											<h2 class="carousel__title">
+												Литр сока или морса в подарок!
+											</h2>
+											<p class="carousel__text">
+												При заказе от 1 200 ₽
+											</p>
+										</div>
+										<img class="carousel__image" src="img/products/carousel/1.png" alt="">
+										<div class="badge badge-heart"></div>
+									</div>
+
+								</div>
+								<div class="carousel__slide swiper-slide" style="border-color: #97F4E9">
+									<div class="carousel__item" style="background: #13D0B9">
+										<div class="carousel__item-wrap">
+											<h2 class="carousel__title">
+												Мега-хит наш cамый сырный вок
+											</h2>
+											<p class="carousel__text">
+												Уникальное блюдо
+											</p>
+										</div>
+										<img class="carousel__image" src="img/products/carousel/2.png" alt="">
+										<div class="badge badge-fire"></div>
+									</div>
+								</div>
+								<div class="carousel__slide _large swiper-slide" style="border-color: #FFCFC2">
+									<div class="carousel__item" style="background: #F15126">
+										<div class="carousel__item-wrap">
+											<h2 class="carousel__title">
+												Согревающий рамэн весь январь 165 ₽
+											</h2>
+											<p class="carousel__text">
+												Акция до 31 января 2023
+											</p>
+										</div>
+										<img class="carousel__image" src="img/products/carousel/3.png" alt="">
+										<div class="badge badge-sale"></div>
+									</div>
+								</div>
+								<div class="carousel__slide swiper-slide" style="border-color: #A6F8B1">
+									<div class="carousel__item" style="background: #51C761">
+										<div class="carousel__item-wrap">
+											<h2 class="carousel__title">
+												Дарим 200₽ на первый онлайн заказ
+											</h2>
+											<p class="carousel__text">
+												При заказе от 600 ₽
+											</p>
+										</div>
+										<img class="carousel__image" src="img/products/carousel/4.png" alt="">
+										<div class="badge badge-heart"></div>
+									</div>
+								</div>
+								<div class="carousel__slide swiper-slide" style="border-color: #E4D58F">
+									<div class="carousel__item" style="background: #8A7D3D">
+										<div class="carousel__item-wrap">
+											<h2 class="carousel__title">
+												Литр сока или морса в подарок!
+											</h2>
+											<p class="carousel__text">
+												При заказе от 1 200 ₽
+											</p>
+										</div>
+										<img class="carousel__image" src="img/products/carousel/1.png" alt="">
+										<div class="badge badge-fire"></div>
+									</div>
+								</div>
+								<div class="carousel__slide swiper-slide" style="border-color: #97F4E9">
+									<div class="carousel__item" style="background: #13D0B9">
+										<div class="carousel__item-wrap">
+											<h2 class="carousel__title">
+												Мега-хит наш cамый сырный вок
+											</h2>
+											<p class="carousel__text">
+												Уникальное блюдо
+											</p>
+										</div>
+										<img class="carousel__image" src="img/products/carousel/2.png" alt="">
+										<div class="badge badge-sale"></div>
+									</div>
+								</div>
+								<div class="carousel__slide _large swiper-slide" style="border-color: #FFCFC2">
+									<div class="carousel__item" style="background: #F15126">
+										<div class="carousel__item-wrap">
+											<h2 class="carousel__title">
+												Согревающий рамэн весь январь 165 ₽
+											</h2>
+											<p class="carousel__text">
+												Акция до 31 января 2023
+											</p>
+										</div>
+										<img class="carousel__image" src="img/products/carousel/3.png" alt="">
+										<div class="badge badge-fire"></div>
+									</div>
+								</div>
+								<div class="carousel__slide swiper-slide" style="border-color: #A6F8B1">
+									<div class="carousel__item" style="background: #51C761">
+										<div class="carousel__item-wrap">
+											<h2 class="carousel__title">
+												Дарим 200₽ на первый онлайн заказ
+											</h2>
+											<p class="carousel__text">
+												При заказе от 600 ₽
+											</p>
+										</div>
+										<img class="carousel__image" src="img/products/carousel/4.png" alt="">
+										<div class="badge badge-sale"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<button type="button" class="slider-button__prev prev1">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12.5 16.25L6.25 10L12.5 3.75" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</button>
+						<button type="button" class="slider-button__next next1">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M7.5 16.25L13.75 10L7.5 3.75" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</button>
+
+					</div>
+				</div>
+			</section>
+			<section class="categories">
+				<div class="categories__container">
+					<div class="categories__list">
+						<div class="categories__item" style="background-color: #EAF9E6;">
+							<a href="" class="categories__link">
+								<div class="categories__image">
+									<img src="img/icons/crown.svg" alt="">
+								</div>
+								<span class="categories__name">
+									Хиты
+								</span>
+							</a>
+						</div>
+						<div class="categories__item" style="background-color: #E6EDFA;">
+							<a href="" class="categories__link">
+								<div class="categories__image">
+									<img src="img/icons/star.svg" alt="">
+								</div>
+								<span class="categories__name">
+									Новинки
+								</span>
+							</a>
+						</div>
+						<div class="categories__item" style="background-color: #FFE8EE">
+							<a href="" class="categories__link">
+								<div class="categories__image">
+									<img src="img/icons/huobi-token-(ht).svg" alt="">
+								</div>
+								<span class="categories__name">
+									Острое
+								</span>
+							</a>
+						</div>
+						<div class="categories__item" style="background-color: #FFEFB7">
+							<a href="" class="categories__link">
+								<div class="categories__image">
+									<img src="img/icons/blur.svg" alt="">
+								</div>
+								<span class="categories__name">
+									Без мяса
+								</span>
+							</a>
+						</div>
+						<div class="categories__item" style="background-color: #F2F2F2">
+							<a href="" class="categories__link">
+								<div class="categories__image">
+									<img src="img/icons/battery-full.svg" alt="">
+								</div>
+								<span class="categories__name">
+									Большие порции
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="products">
+				<div class="products__container">
+					<h1 class="title-main">
+						Вок классика
+					</h1>
+					<div class="products__list">
+						<div class="product-card">
+							<div class="product-card__image">
+								<a href="" class="product-card__link" data-popup="#popup">
+									<div class="product-card__label">
+										Хит
+									</div>
+									<img src="img/products/wok/1.png" alt="">
+									<div class="product-card__layer"></div>
+								</a>
+							</div>
+							<div class="product-card__body">
+								<div class="product-card__weight">
+									280 г
+								</div>
+								<h3 class="product-card__name">
+									Classic с курочкой
+								</h3>
+								<p class="product-card__desc">
+									Курица, перец болгарский, фасоль стручко...
+								</p>
+
+								<div class="product-card__controls">
+									<button type="button" class="product-card__button js-add">
+										<div class="product-card__wrap">
+											<span class="product-card__text">
+												Добавить
+											</span>
+											<span class="product-card__price">
+												245 ₽
+											</span>
+										</div>
+									</button>
+									<div class="product-card__quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1">
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__image">
+								<a href="" class="product-card__link" data-popup="#popup">
+									<img src="img/products/wok/2.png" alt="">
+									<div class="product-card__layer"></div>
+								</a>
+							</div>
+							<div class="product-card__body">
+								<div class="product-card__weight">
+									280 г
+								</div>
+								<h3 class="product-card__name">
+									Classic с курочкой
+								</h3>
+								<p class="product-card__desc">
+									Курица, кальмары, салатные креветки, кит...
+								</p>
+								<div class="product-card__controls">
+									<button type="button" class="product-card__button js-add">
+										<div class="product-card__wrap">
+											<span class="product-card__text">
+												Добавить
+											</span>
+											<span class="product-card__price">
+												245 ₽
+											</span>
+										</div>
+									</button>
+									<div class="product-card__quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1">
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__image">
+								<a href="" class="product-card__link" data-popup="#popup">
+									<img src="img/products/wok/3.png" alt="">
+									<div class="product-card__layer"></div>
+								</a>
+							</div>
+							<div class="product-card__body">
+								<div class="product-card__weight">
+									280 г
+								</div>
+								<h3 class="product-card__name">
+									Classic с грибами
+								</h3>
+								<p class="product-card__desc">
+									Шампиньоны, перец болгарский, фасоль ...
+								</p>
+								<div class="product-card__controls">
+									<button type="button" class="product-card__button js-add">
+										<div class="product-card__wrap">
+											<span class="product-card__text">
+												Добавить
+											</span>
+											<span class="product-card__price">
+												235 ₽
+											</span>
+										</div>
+									</button>
+									<div class="product-card__quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1">
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__image">
+								<a href="" class="product-card__link" data-popup="#popup">
+									<div class="product-card__label">
+										Новинка
+									</div>
+									<img src="img/products/wok/4.png" alt="">
+									<div class="product-card__layer"></div>
+								</a>
+							</div>
+							<div class="product-card__body">
+								<div class="product-card__weight">
+									280 г
+								</div>
+								<h3 class="product-card__name">
+									Вок Море
+								</h3>
+								<p class="product-card__desc">
+									Салатные креветки, кальмары, мидии, фас...
+								</p>
+								<div class="product-card__controls">
+									<button type="button" class="product-card__button js-add">
+										<div class="product-card__wrap">
+											<span class="product-card__text">
+												Добавить
+											</span>
+											<span class="product-card__price">
+												279 ₽
+											</span>
+										</div>
+									</button>
+									<div class="product-card__quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1">
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="products">
+				<div class="products__container">
+					<h1 class="title-main">
+						Фирменная лапша
+					</h1>
+					<div class="products__list">
+						<div class="product-card">
+							<div class="product-card__image">
+								<a href="" class="product-card__link" data-popup="#popup">
+									<div class="product-card__label">
+										Новинка
+									</div>
+									<img src="img/products/pasta/1.png" alt="">
+									<div class="product-card__layer"></div>
+								</a>
+							</div>
+							<div class="product-card__body">
+								<div class="product-card__weight">
+									280 г
+								</div>
+								<h3 class="product-card__name">
+									Вок Море
+								</h3>
+								<p class="product-card__desc">
+									Салатные креветки, кальмары, мидии, фас...
+								</p>
+								<div class="product-card__controls">
+									<button type="button" class="product-card__button js-add">
+										<div class="product-card__wrap">
+											<span class="product-card__text">
+												Добавить
+											</span>
+											<span class="product-card__price">
+												279 ₽
+											</span>
+										</div>
+									</button>
+									<div class="product-card__quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1">
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__image">
+								<a href="" class="product-card__link" data-popup="#popup">
+									<img src="img/products/pasta/2.png" alt="">
+									<div class="product-card__layer"></div>
+								</a>
+							</div>
+							<div class="product-card__body">
+								<div class="product-card__weight">
+									280 г
+								</div>
+								<h3 class="product-card__name">
+									Самый сырный
+								</h3>
+								<p class="product-card__desc">
+									Курица, сыр моцарелла, томаты, брокколи,...
+								</p>
+								<div class="product-card__controls">
+									<button type="button" class="product-card__button js-add">
+										<div class="product-card__wrap">
+											<span class="product-card__text">
+												Добавить
+											</span>
+											<span class="product-card__price">
+												265 ₽
+											</span>
+										</div>
+									</button>
+									<div class="product-card__quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1">
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__image">
+								<a href="" class="product-card__link" data-popup="#popup">
+									<img src="img/products/pasta/3.png" alt="">
+									<div class="product-card__layer"></div>
+								</a>
+							</div>
+							<div class="product-card__body">
+								<div class="product-card__weight">
+									280 г
+								</div>
+								<h3 class="product-card__name">
+									Курица, кальмары, креветки
+								</h3>
+								<p class="product-card__desc">
+									Курица, кальмары, салатные креветки, кит...
+								</p>
+								<div class="product-card__controls">
+									<button type="button" class="product-card__button js-add">
+										<div class="product-card__wrap">
+											<span class="product-card__text">
+												Добавить
+											</span>
+											<span class="product-card__price">
+												275 ₽
+											</span>
+										</div>
+									</button>
+									<div class="product-card__quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1">
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__image">
+								<a href="" class="product-card__link" data-popup="#popup">
+									<img src="img/products/pasta/4.png" alt="">
+									<div class="product-card__layer"></div>
+								</a>
+							</div>
+							<div class="product-card__body">
+								<div class="product-card__weight">
+									280 г
+								</div>
+								<h3 class="product-card__name">
+									Кокосовый
+								</h3>
+								<p class="product-card__desc">
+									Курочка, перец болгарский, лук репчатый, ...
+								</p>
+								<div class="product-card__controls">
+									<button type="button" class="product-card__button js-add">
+										<div class="product-card__wrap">
+											<span class="product-card__text">
+												Добавить
+											</span>
+											<span class="product-card__price">
+												265 ₽
+											</span>
+										</div>
+									</button>
+									<div class="product-card__quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1">
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="products">
+				<div class="products__container">
+					<h1 class="title-main">
+						Салаты
+					</h1>
+					<div class="products__list">
+						<div class="product-card">
+							<div class="product-card__image">
+								<a href="" class="product-card__link" data-popup="#popup">
+									<div class="product-card__label">
+										Хит
+									</div>
+									<img src="img/products/salad/1.png" alt="">
+									<div class="product-card__layer"></div>
+								</a>
+							</div>
+							<div class="product-card__body">
+								<div class="product-card__weight">
+									280 г
+								</div>
+								<h3 class="product-card__name">
+									Чука в ореховом соусе
+								</h3>
+								<p class="product-card__desc">
+									Салат Чука, салат айсберг, пекинская капу...
+								</p>
+								<div class="product-card__controls">
+									<button type="button" class="product-card__button js-add">
+										<div class="product-card__wrap">
+											<span class="product-card__text">
+												Добавить
+											</span>
+											<span class="product-card__price">
+												175 ₽
+											</span>
+										</div>
+									</button>
+									<div class="product-card__quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1">
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__image">
+								<a href="" class="product-card__link" data-popup="#popup">
+									<img src="img/products/salad/2.png" alt="">
+									<div class="product-card__layer"></div>
+								</a>
+							</div>
+							<div class="product-card__body">
+								<div class="product-card__weight">
+									280 г
+								</div>
+								<h3 class="product-card__name">
+									Том Ям
+								</h3>
+								<p class="product-card__desc">
+									Бульон том ям, тигровые креветки, кальм...
+								</p>
+								<div class="product-card__controls">
+									<button type="button" class="product-card__button js-add">
+										<div class="product-card__wrap">
+											<span class="product-card__text">
+												Добавить
+											</span>
+											<span class="product-card__price">
+												269 ₽
+											</span>
+										</div>
+									</button>
+									<div class="product-card__quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1">
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__image">
+								<a href="" class="product-card__link" data-popup="#popup">
+									<div class="product-card__label">
+										Новинка
+									</div>
+									<img src="img/products/salad/3.png" alt="">
+									<div class="product-card__layer"></div>
+								</a>
+							</div>
+							<div class="product-card__body">
+								<div class="product-card__weight">
+									280 г
+								</div>
+								<h3 class="product-card__name">
+									Итальянский салат
+								</h3>
+								<p class="product-card__desc">
+									Салат айсберг, пекинская капуста, курица...
+								</p>
+								<div class="product-card__controls">
+									<button type="button" class="product-card__button js-add">
+										<div class="product-card__wrap">
+											<span class="product-card__text">
+												Добавить
+											</span>
+											<span class="product-card__price">
+												175 ₽
+											</span>
+										</div>
+									</button>
+									<div class="product-card__quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1">
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__image">
+								<a href="" class="product-card__link" data-popup="#popup">
+									<img src="img/products/salad/4.png" alt="">
+									<div class="product-card__layer"></div>
+								</a>
+							</div>
+							<div class="product-card__body">
+								<div class="product-card__weight">
+									280 г
+								</div>
+								<h3 class="product-card__name">
+									Курица, кальмары, креветки
+								</h3>
+								<p class="product-card__desc">
+									Курица, кальмары, салатные креветки, кит...
+								</p>
+								<div class="product-card__controls">
+									<button type="button" class="product-card__button js-add">
+										<div class="product-card__wrap">
+											<span class="product-card__text">
+												Добавить
+											</span>
+											<span class="product-card__price">
+												275 ₽
+											</span>
+										</div>
+									</button>
+									<div class="product-card__quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1">
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="products">
+				<div class="products__container">
+					<h1 class="title-main">
+						Сэндвич-роллы
+					</h1>
+					<div class="products__list">
+						<div class="product-card">
+							<div class="product-card__image">
+								<a href="" class="product-card__link" data-popup="#popup">
+									<img src="img/products/sandwich/1.png" alt="">
+									<div class="product-card__layer"></div>
+								</a>
+							</div>
+							<div class="product-card__body">
+								<div class="product-card__weight">
+									280 г
+								</div>
+								<h3 class="product-card__name">
+									Classic с курочкой
+								</h3>
+								<p class="product-card__desc">
+									Курица, перец болгарский, фасоль стручко...
+								</p>
+								<div class="product-card__controls">
+									<button type="button" class="product-card__button js-add">
+										<div class="product-card__wrap">
+											<span class="product-card__text">
+												Добавить
+											</span>
+											<span class="product-card__price">
+												245 ₽
+											</span>
+										</div>
+									</button>
+									<div class="product-card__quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1">
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__image">
+								<a href="" class="product-card__link" data-popup="#popup">
+									<img src="img/products/sandwich/2.png" alt="">
+									<div class="product-card__layer"></div>
+								</a>
+							</div>
+							<div class="product-card__body">
+								<div class="product-card__weight">
+									280 г
+								</div>
+								<h3 class="product-card__name">
+									Курица, кальмары, креветки
+								</h3>
+								<p class="product-card__desc">
+									Курица, кальмары, салатные креветки, кит...
+								</p>
+								<div class="product-card__controls">
+									<button type="button" class="product-card__button js-add">
+										<div class="product-card__wrap">
+											<span class="product-card__text">
+												Добавить
+											</span>
+											<span class="product-card__price">
+												275 ₽
+											</span>
+										</div>
+									</button>
+									<div class="product-card__quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1">
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__image">
+								<a href="" class="product-card__link" data-popup="#popup">
+									<img src="img/products/sandwich/3.png" alt="">
+									<div class="product-card__layer"></div>
+								</a>
+							</div>
+							<div class="product-card__body">
+								<div class="product-card__weight">
+									280 г
+								</div>
+								<h3 class="product-card__name">
+									Фета ролл c овощами
+								</h3>
+								<p class="product-card__desc">
+									Тортилья, салат айсберг, пекинская капус...
+								</p>
+								<div class="product-card__controls">
+									<button type="button" class="product-card__button js-add">
+										<div class="product-card__wrap">
+											<span class="product-card__text">
+												Добавить
+											</span>
+											<span class="product-card__price">
+												185 ₽
+											</span>
+										</div>
+									</button>
+									<div class="product-card__quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1">
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-card">
+							<div class="product-card__image">
+								<a href="" class="product-card__link" data-popup="#popup">
+									<img src="img/products/sandwich/4.png" alt="">
+									<div class="product-card__layer"></div>
+								</a>
+							</div>
+							<div class="product-card__body">
+								<div class="product-card__weight">
+									280 г
+								</div>
+								<h3 class="product-card__name">
+									Том Ям
+								</h3>
+								<p class="product-card__desc">
+									Бульон том ям, тигровые креветки, кальм...
+								</p>
+								<div class="product-card__controls">
+									<button type="button" class="product-card__button js-add">
+										<div class="product-card__wrap">
+											<span class="product-card__text">
+												Добавить
+											</span>
+											<span class="product-card__price">
+												269 ₽
+											</span>
+										</div>
+									</button>
+									<div class="product-card__quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1">
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="info">
+				<div class="info__container">
+					<h1 class="title-main">
+						Доставка и оплата
+					</h1>
+					<div class="info__row">
+						<div class="info__item">
+							<div class="info__icon">
+								<img src="img/icons/direct-right.svg" alt="">
+							</div>
+							<div class="info__item-body">
+								<h3 class="info__title">
+									Самовывоз<br> заказ
+								</h3>
+								<p class="info__text">
+									Заказ можно забрать по адресу: <b>Астрономическая, дом 13</b>
+								</p>
+							</div>
+						</div>
+						<div class="info__item">
+							<div class="info__icon">
+								<img src="img/icons/routing.svg" alt="">
+							</div>
+							<div class="info__item-body">
+								<h3 class="info__title">
+									Доставка вашего заказа
+								</h3>
+								<p class="info__text">
+									Мы доставим ваш заказ, <b>при сумме заказа от 500 ₽</b>
+								</p>
+							</div>
+						</div>
+						<div class="info__item">
+							<div class="info__icon">
+								<img src="img/icons/cards.svg" alt="">
+							</div>
+							<div class="info__item-body">
+								<h3 class="info__title">
+									Оплата картой на сайте
+								</h3>
+								<p class="info__text">
+									Оплата при оформлении картами <b>Visa, Mastercard, Мир</b>
+								</p>
+							</div>
+						</div>
+						<div class="info__item">
+							<div class="info__icon">
+								<img src="img/icons/empty-wallet.svg" alt="">
+							</div>
+							<div class="info__item-body">
+								<h3 class="info__title">
+									Оплата картой на сайте
+								</h3>
+								<p class="info__text">
+									Оплата при оформлении картами Visa, Mastercard, Мир
+								</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="reviews">
+				<div class="reviews__container">
+					<h1 class="title-main">
+						Счастливые отзывы
+					</h1>
+					<div class="reviews__slider-container">
+						<button type="button" class="slider-button__prev prev">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12.5 16.25L6.25 10L12.5 3.75" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</button>
+						<button type="button" class="slider-button__next next">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M7.5 16.25L13.75 10L7.5 3.75" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</button>
+						<div class="reviews__slider swiper">
+							<div class="reviews__wrapper swiper-wrapper">
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__item">
+										<div class="reviews__item-top">
+											<span class="reviews__date">
+												24 августа 2022
+											</span>
+											<h4 class="reviews__title">
+												Igor Vladimirskiy
+											</h4>
+										</div>
+										<p class="reviews__text">
+											Очень понравилось! Пробовали вок с телятиной, обед с рамен, обед с Том Ям - всё очень
+											вкусное, порции большие, приготовлено всё отменно.
+											Количество мяса, курицы и морепродуктов в блюдах щедрое.
+											Воки делают на выбор с любыми видами гарнира, всё очень свежее персонал...
+										</p>
+										<div class="reviews__rating">
+											<div class="rating-result">
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span>
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+											</div>
+											<img src="img/icons/yandex.svg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__item">
+										<div class="reviews__item-top">
+											<span class="reviews__date">
+												15 октября 2022
+											</span>
+											<h4 class="reviews__title">
+												Лиля Вазыхова
+											</h4>
+										</div>
+										<p class="reviews__text">
+											Пришла в это заведение ориентируясь на отзывы. Очень люблю азиатску кухню и их фастфуд.
+											Заведение опрятное, есть разетки чтобы подзарядить телефон. Заказала Карри вок и он был
+											чудесен. Очень вкусный, прекрасный соус и наполнения не мало. Цена совершенно
+											адекватная. Если буду рядом обязатель...
+										</p>
+										<div class="reviews__rating">
+											<div class="rating-result">
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+											</div>
+											<img src="img/icons/yandex.svg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__item">
+										<div class="reviews__item-top">
+											<span class="reviews__date">
+												24 августа 2022
+											</span>
+											<h4 class="reviews__title">
+												Сергей Прохоров
+											</h4>
+										</div>
+										<p class="reviews__text">
+											Вкусно, на протяжении многих лет!👍🏻
+											Я с 2014 года тут кушал, всегда вкусно, достаточно разнообразно и главное быстро)
+											Однозначно рекомендую ☝🏻☝🏻
+										</p>
+										<div class="reviews__rating">
+											<div class="rating-result">
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+											</div>
+											<img src="img/icons/yandex.svg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__item">
+										<div class="reviews__item-top">
+											<span class="reviews__date">
+												24 августа 2022
+											</span>
+											<h4 class="reviews__title">
+												Igor Vladimirskiy
+											</h4>
+										</div>
+										<p class="reviews__text">
+											Очень понравилось! Пробовали вок с телятиной, обед с рамен, обед с Том Ям - всё очень
+											вкусное, порции большие, приготовлено всё отменно.
+											Количество мяса, курицы и морепродуктов в блюдах щедрое.
+											Воки делают на выбор с любыми видами гарнира, всё очень свежее персонал...
+										</p>
+										<div class="reviews__rating">
+											<div class="rating-result">
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span>
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+											</div>
+											<img src="img/icons/yandex.svg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__item">
+										<div class="reviews__item-top">
+											<span class="reviews__date">
+												15 октября 2022
+											</span>
+											<h4 class="reviews__title">
+												Лиля Вазыхова
+											</h4>
+										</div>
+										<p class="reviews__text">
+											Пришла в это заведение ориентируясь на отзывы. Очень люблю азиатску кухню и их фастфуд.
+											Заведение опрятное, есть разетки чтобы подзарядить телефон. Заказала Карри вок и он был
+											чудесен. Очень вкусный, прекрасный соус и наполнения не мало. Цена совершенно
+											адекватная. Если буду рядом обязатель...
+										</p>
+										<div class="reviews__rating">
+											<div class="rating-result">
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+											</div>
+											<img src="img/icons/yandex.svg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__item">
+										<div class="reviews__item-top">
+											<span class="reviews__date">
+												24 августа 2022
+											</span>
+											<h4 class="reviews__title">
+												Сергей Прохоров
+											</h4>
+										</div>
+										<p class="reviews__text">
+											Вкусно, на протяжении многих лет!👍🏻
+											Я с 2014 года тут кушал, всегда вкусно, достаточно разнообразно и главное быстро)
+											Однозначно рекомендую ☝🏻☝🏻
+										</p>
+										<div class="reviews__rating">
+											<div class="rating-result">
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+												<span class="_active">
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M11.4417 2.92495L12.9083 5.85828C13.1083 6.26662 13.6417 6.65828 14.0917 6.73328L16.75 7.17495C18.45 7.45828 18.85 8.69162 17.625 9.90828L15.5583 11.9749C15.2083 12.3249 15.0167 12.9999 15.125 13.4833L15.7167 16.0416C16.1833 18.0666 15.1083 18.8499 13.3167 17.7916L10.825 16.3166C10.375 16.0499 9.63332 16.0499 9.17499 16.3166L6.68332 17.7916C4.89999 18.8499 3.81665 18.0583 4.28332 16.0416L4.87499 13.4833C4.98332 12.9999 4.79165 12.3249 4.44165 11.9749L2.37499 9.90828C1.15832 8.69162 1.54999 7.45828 3.24999 7.17495L5.90832 6.73328C6.34999 6.65828 6.88332 6.26662 7.08332 5.85828L8.54999 2.92495C9.34999 1.33328 10.65 1.33328 11.4417 2.92495Z" stroke="#F15126" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</span>
+											</div>
+											<img src="img/icons/yandex.svg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="reviews__inner">
+						<a href="" class="btn__orange">
+							Оставить отзыв
+						</a>
+						<a href="" class="btn__outline">
+							Отдел качества
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="carousel-bottom">
+				<div class="carousel__container">
+					<div class="carousel__slider-container">
+						<div class="carousel__slider carousel__slider-two swiper">
+							<div class="carousel__wrapper swiper-wrapper">
+								<div class="carousel__slide swiper-slide" style="border-color: #E4D58F">
+									<div class="carousel__item" style="background: #8A7D3D">
+										<div class="carousel__item-wrap">
+											<h2 class="carousel__title">
+												Литр сока или морса в подарок!
+											</h2>
+											<p class="carousel__text">
+												При заказе от 1 200 ₽
+											</p>
+										</div>
+										<img class="carousel__image" src="img/products/carousel/1.png" alt="">
+										<div class="badge badge-heart"></div>
+									</div>
+
+								</div>
+								<div class="carousel__slide swiper-slide" style="border-color: #97F4E9">
+									<div class="carousel__item" style="background: #13D0B9">
+										<div class="carousel__item-wrap">
+											<h2 class="carousel__title">
+												Мега-хит наш cамый сырный вок
+											</h2>
+											<p class="carousel__text">
+												Уникальное блюдо
+											</p>
+										</div>
+										<img class="carousel__image" src="img/products/carousel/2.png" alt="">
+										<div class="badge badge-fire"></div>
+									</div>
+								</div>
+								<div class="carousel__slide _large swiper-slide" style="border-color: #FFCFC2">
+									<div class="carousel__item" style="background: #F15126">
+										<div class="carousel__item-wrap">
+											<h2 class="carousel__title">
+												Согревающий рамэн весь январь 165 ₽
+											</h2>
+											<p class="carousel__text">
+												Акция до 31 января 2023
+											</p>
+										</div>
+										<img class="carousel__image" src="img/products/carousel/3.png" alt="">
+										<div class="badge badge-sale"></div>
+									</div>
+								</div>
+								<div class="carousel__slide swiper-slide" style="border-color: #A6F8B1">
+									<div class="carousel__item" style="background: #51C761">
+										<div class="carousel__item-wrap">
+											<h2 class="carousel__title">
+												Дарим 200₽ на первый онлайн заказ
+											</h2>
+											<p class="carousel__text">
+												При заказе от 600 ₽
+											</p>
+										</div>
+										<img class="carousel__image" src="img/products/carousel/4.png" alt="">
+										<div class="badge badge-heart"></div>
+									</div>
+								</div>
+								<div class="carousel__slide swiper-slide" style="border-color: #E4D58F">
+									<div class="carousel__item" style="background: #8A7D3D">
+										<div class="carousel__item-wrap">
+											<h2 class="carousel__title">
+												Литр сока или морса в подарок!
+											</h2>
+											<p class="carousel__text">
+												При заказе от 1 200 ₽
+											</p>
+										</div>
+										<img class="carousel__image" src="img/products/carousel/1.png" alt="">
+										<div class="badge badge-fire"></div>
+									</div>
+								</div>
+								<div class="carousel__slide swiper-slide" style="border-color: #97F4E9">
+									<div class="carousel__item" style="background: #13D0B9">
+										<div class="carousel__item-wrap">
+											<h2 class="carousel__title">
+												Мега-хит наш cамый сырный вок
+											</h2>
+											<p class="carousel__text">
+												Уникальное блюдо
+											</p>
+										</div>
+										<img class="carousel__image" src="img/products/carousel/2.png" alt="">
+										<div class="badge badge-sale"></div>
+									</div>
+								</div>
+								<div class="carousel__slide _large swiper-slide" style="border-color: #FFCFC2">
+									<div class="carousel__item" style="background: #F15126">
+										<div class="carousel__item-wrap">
+											<h2 class="carousel__title">
+												Согревающий рамэн весь январь 165 ₽
+											</h2>
+											<p class="carousel__text">
+												Акция до 31 января 2023
+											</p>
+										</div>
+										<img class="carousel__image" src="img/products/carousel/3.png" alt="">
+										<div class="badge badge-fire"></div>
+									</div>
+								</div>
+								<div class="carousel__slide swiper-slide" style="border-color: #A6F8B1">
+									<div class="carousel__item" style="background: #51C761">
+										<div class="carousel__item-wrap">
+											<h2 class="carousel__title">
+												Дарим 200₽ на первый онлайн заказ
+											</h2>
+											<p class="carousel__text">
+												При заказе от 600 ₽
+											</p>
+										</div>
+										<img class="carousel__image" src="img/products/carousel/4.png" alt="">
+										<div class="badge badge-sale"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<button type="button" class="slider-button__prev prev2">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12.5 16.25L6.25 10L12.5 3.75" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</button>
+						<button type="button" class="slider-button__next next2">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M7.5 16.25L13.75 10L7.5 3.75" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</button>
+
+					</div>
+				</div>
+			</section>
+			<div class="basket">
+				<form action="">
+					<div class="basket__wrapper">
+						<button type="button" class="basket__close js-basket">
+							<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M20.3125 5.6875L5.6875 20.3125" stroke="#140A07" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M20.3125 20.3125L5.6875 5.6875" stroke="#140A07" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</button>
+						<h2 class="basket__title">Моя корзина</h2>
+						<div class="basket__headerTotal">3 блюда на 920 ₽</div>
+						<ul class="basket__list">
+							<li class="basket__list-item">
+								<div class="basket__image">
+									<img src="img/products/wok/6.png" alt="" />
+								</div>
+								<div class="basket__row">
+									<div class="basket__body">
+										<h4 class="basket__list-title">Вок Классик с курочкой</h4>
+										<p class="basket__list-text">Лапша яичная</p>
+										<div class="basket__value-wrap">
+											<span class="basket__value-price"> 285 ₽ </span>
+											<span class="basket__value-weight"> 280 г </span>
+										</div>
+									</div>
+									<div class="basket-quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1" />
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</li>
+							<li class="basket__list-item">
+								<div class="basket__image">
+									<img src="img/products/wok/7.png" alt="" />
+								</div>
+								<div class="basket__row">
+									<div class="basket__body">
+										<h4 class="basket__list-title">Суп Фирменный с морепродуктами</h4>
+										<p class="basket__list-text">Не остро</p>
+										<div class="basket__value-wrap">
+											<span class="basket__value-price"> 235 ₽ </span>
+											<span class="basket__value-weight"> 300 г </span>
+										</div>
+									</div>
+									<div class="basket-quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1" />
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</li>
+							<li class="basket__list-item">
+								<div class="basket__image">
+									<img src="img/products/wok/8.png" alt="" />
+								</div>
+								<div class="basket__row">
+									<div class="basket__body">
+										<h4 class="basket__list-title">Итальянский салат</h4>
+										<div class="basket__value-wrap">
+											<span class="basket__value-price"> 215 ₽ </span>
+											<span class="basket__value-weight"> 150 г </span>
+										</div>
+									</div>
+									<div class="basket-quantity quantity">
+										<div class="quantity__button quantity__button_minus _icon-minus"></div>
+										<div class="quantity__input">
+											<input autocomplete="off" type="text" value="1" />
+										</div>
+										<div class="quantity__button quantity__button_plus _icon-plus"></div>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<div class="basket__choice">
+							<div class="form-check">
+								<input class="form-check__input" type="radio" name="RadioDefault" id="b_1" checked />
+								<label class="form-check__label" for="b_1">
+									<div class="form-check__content">
+										<h4>Заказать с доставкой</h4>
+										<p>Доставка заказа по городу 150 ₽.</p>
+										<p>Бесплатная доставка от 700 ₽</p>
+									</div>
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check__input" type="radio" name="RadioDefault" id="b_2" />
+								<label class="form-check__label" for="b_2">
+									<div class="form-check__content">
+										<h4>Самовывоз заказа со скидкой 20%</h4>
+										<p>Заберите свой заказ из ресторана: улица Астрономическая, дом 13</p>
+									</div>
+								</label>
+							</div>
+						</div>
+						<ul class="basket__total">
+							<li class="basket__total-item">
+								<div class="basket__total-label">
+									Товары <span>(2)</span>
+								</div>
+								<div class="basket__total-value">
+									960 ₽
+								</div>
+							</li>
+							<li class="basket__total-item">
+								<div class="basket__total-label">
+									Доставка по городу
+								</div>
+								<div class="basket__total-value">
+									Бесплатно
+								</div>
+							</li>
+							<li class="basket__total-amount">
+								<div class="basket__total-label">
+									Сумма заказа
+								</div>
+								<div class="basket__total-value">
+									960 ₽
+								</div>
+							</li>
+						</ul>
+						<button class="btn__orange" type="submit">
+							Оформить заказ
+						</button>
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__wrapper">
+					<div class="footer__top">
+						<div class="footer__social">
+							<ul class="footer__social-list">
+								<li class="footer__social-item">
+									<a href="" class="footer__social-link">
+										<i class="footer__social-icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_2_855)">
+													<path d="M20 10C20 4.47715 15.5229 0 10 0C4.47715 0 0 4.47715 0 10C0 14.9912 3.65684 19.1283 8.4375 19.8785V12.8906H5.89844V10H8.4375V7.79688C8.4375 5.29063 9.93047 3.90625 12.2146 3.90625C13.3084 3.90625 14.4531 4.10156 14.4531 4.10156V6.5625H13.1922C11.95 6.5625 11.5625 7.3334 11.5625 8.125V10H14.3359L13.8926 12.8906H11.5625V19.8785C16.3432 19.1283 20 14.9912 20 10Z" fill="black" />
+												</g>
+												<defs>
+													<clipPath id="clip0_2_855">
+														<rect width="20" height="20" fill="white" />
+													</clipPath>
+												</defs>
+											</svg>
+										</i>
+										<span class="footer__social-text">
+											FaceBook
+										</span>
+									</a>
+								</li>
+								<li class="footer__social-item">
+									<a href="" class="footer__social-link">
+										<i class="footer__social-icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M10 1.80078C12.6719 1.80078 12.9883 1.8125 14.0391 1.85937C15.0156 1.90234 15.543 2.06641 15.8945 2.20313C16.3594 2.38281 16.6953 2.60156 17.043 2.94922C17.3945 3.30078 17.6094 3.63281 17.7891 4.09766C17.9258 4.44922 18.0898 4.98047 18.1328 5.95312C18.1797 7.00781 18.1914 7.32422 18.1914 9.99219C18.1914 12.6641 18.1797 12.9805 18.1328 14.0313C18.0898 15.0078 17.9258 15.5352 17.7891 15.8867C17.6094 16.3516 17.3906 16.6875 17.043 17.0352C16.6914 17.3867 16.3594 17.6016 15.8945 17.7813C15.543 17.918 15.0117 18.082 14.0391 18.125C12.9844 18.1719 12.668 18.1836 10 18.1836C7.32813 18.1836 7.01172 18.1719 5.96094 18.125C4.98438 18.082 4.45703 17.918 4.10547 17.7813C3.64063 17.6016 3.30469 17.3828 2.95703 17.0352C2.60547 16.6836 2.39063 16.3516 2.21094 15.8867C2.07422 15.5352 1.91016 15.0039 1.86719 14.0313C1.82031 12.9766 1.80859 12.6602 1.80859 9.99219C1.80859 7.32031 1.82031 7.00391 1.86719 5.95312C1.91016 4.97656 2.07422 4.44922 2.21094 4.09766C2.39063 3.63281 2.60938 3.29688 2.95703 2.94922C3.30859 2.59766 3.64063 2.38281 4.10547 2.20313C4.45703 2.06641 4.98828 1.90234 5.96094 1.85937C7.01172 1.8125 7.32813 1.80078 10 1.80078ZM10 0C7.28516 0 6.94531 0.0117187 5.87891 0.0585938C4.81641 0.105469 4.08594 0.277344 3.45313 0.523438C2.79297 0.78125 2.23438 1.12109 1.67969 1.67969C1.12109 2.23438 0.78125 2.79297 0.523438 3.44922C0.277344 4.08594 0.105469 4.8125 0.0585938 5.875C0.0117188 6.94531 0 7.28516 0 10C0 12.7148 0.0117188 13.0547 0.0585938 14.1211C0.105469 15.1836 0.277344 15.9141 0.523438 16.5469C0.78125 17.207 1.12109 17.7656 1.67969 18.3203C2.23438 18.875 2.79297 19.2188 3.44922 19.4727C4.08594 19.7188 4.8125 19.8906 5.875 19.9375C6.94141 19.9844 7.28125 19.9961 9.99609 19.9961C12.7109 19.9961 13.0508 19.9844 14.1172 19.9375C15.1797 19.8906 15.9102 19.7188 16.543 19.4727C17.1992 19.2188 17.7578 18.875 18.3125 18.3203C18.8672 17.7656 19.2109 17.207 19.4648 16.5508C19.7109 15.9141 19.8828 15.1875 19.9297 14.125C19.9766 13.0586 19.9883 12.7188 19.9883 10.0039C19.9883 7.28906 19.9766 6.94922 19.9297 5.88281C19.8828 4.82031 19.7109 4.08984 19.4648 3.45703C19.2188 2.79297 18.8789 2.23438 18.3203 1.67969C17.7656 1.125 17.207 0.78125 16.5508 0.527344C15.9141 0.28125 15.1875 0.109375 14.125 0.0625C13.0547 0.0117188 12.7148 0 10 0Z" fill="black" />
+												<path d="M10 4.86328C7.16406 4.86328 4.86328 7.16406 4.86328 10C4.86328 12.8359 7.16406 15.1367 10 15.1367C12.8359 15.1367 15.1367 12.8359 15.1367 10C15.1367 7.16406 12.8359 4.86328 10 4.86328ZM10 13.332C8.16016 13.332 6.66797 11.8398 6.66797 10C6.66797 8.16016 8.16016 6.66797 10 6.66797C11.8398 6.66797 13.332 8.16016 13.332 10C13.332 11.8398 11.8398 13.332 10 13.332Z" fill="black" />
+												<path d="M16.5391 4.66016C16.5391 5.32422 16 5.85938 15.3398 5.85938C14.6758 5.85938 14.1406 5.32031 14.1406 4.66016C14.1406 3.99609 14.6797 3.46094 15.3398 3.46094C16 3.46094 16.5391 4 16.5391 4.66016Z" fill="black" />
+											</svg>
+										</i>
+										<span class="footer__social-text">
+											Instagram
+										</span>
+									</a>
+								</li>
+								<li class="footer__social-item">
+									<a href="" class="footer__social-link">
+										<i class="footer__social-icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10ZM10.3583 7.38244C9.38562 7.787 7.44169 8.62433 4.52649 9.89444C4.05311 10.0827 3.80513 10.2668 3.78255 10.4469C3.7444 10.7512 4.12551 10.8711 4.64448 11.0343C4.71507 11.0565 4.78821 11.0795 4.86319 11.1038C5.37378 11.2698 6.0606 11.464 6.41765 11.4717C6.74153 11.4787 7.10302 11.3452 7.50211 11.0711C10.2259 9.2325 11.6319 8.30317 11.7202 8.28314C11.7824 8.26901 11.8687 8.25123 11.9272 8.3032C11.9857 8.35518 11.9799 8.4536 11.9737 8.48C11.936 8.64095 10.44 10.0318 9.66584 10.7515C9.4245 10.9759 9.25331 11.135 9.21831 11.1714C9.13992 11.2528 9.06002 11.3298 8.98323 11.4038C8.50889 11.8611 8.15317 12.204 9.00292 12.764C9.41128 13.0331 9.73804 13.2556 10.064 13.4776C10.4201 13.7201 10.7752 13.9619 11.2346 14.2631C11.3516 14.3398 11.4634 14.4195 11.5723 14.4971C11.9866 14.7925 12.3589 15.0578 12.8187 15.0155C13.0859 14.9909 13.362 14.7397 13.5021 13.9903C13.8334 12.2193 14.4846 8.38205 14.6351 6.80081C14.6483 6.66228 14.6317 6.48498 14.6184 6.40715C14.6051 6.32932 14.5772 6.21842 14.4761 6.13633C14.3562 6.03911 14.1713 6.01861 14.0886 6.02007C13.7124 6.0267 13.1354 6.22735 10.3583 7.38244Z" fill="black" />
+											</svg>
+										</i>
+										<span class="footer__social-text">
+											Telegram
+										</span>
+									</a>
+								</li>
+								<li class="footer__social-item">
+									<a href="" class="footer__social-link">
+										<i class="footer__social-icon">
+											<svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M13.2271 0H9.8565V13.6232C9.8565 15.2464 8.56015 16.5797 6.94688 16.5797C5.3336 16.5797 4.03723 15.2464 4.03723 13.6232C4.03723 12.029 5.3048 10.7246 6.86047 10.6667V7.24639C3.43226 7.30433 0.666656 10.1159 0.666656 13.6232C0.666656 17.1594 3.48987 20 6.9757 20C10.4615 20 13.2847 17.1304 13.2847 13.6232V6.63767C14.5523 7.56522 16.1079 8.11594 17.75 8.14495V4.72464C15.2149 4.63768 13.2271 2.55072 13.2271 0Z" fill="black" />
+											</svg>
+										</i>
+										<span class="footer__social-text">
+											Tiktok
+										</span>
+									</a>
+								</li>
+								<li class="footer__social-item">
+									<a href="" class="footer__social-link">
+										<i class="footer__social-icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M19.8008 6C19.8008 6 19.6055 4.62109 19.0039 4.01563C18.2422 3.21875 17.3906 3.21484 17 3.16797C14.2031 2.96484 10.0039 2.96484 10.0039 2.96484H9.99609C9.99609 2.96484 5.79688 2.96484 3 3.16797C2.60938 3.21484 1.75781 3.21875 0.996094 4.01563C0.394531 4.62109 0.203125 6 0.203125 6C0.203125 6 0 7.62109 0 9.23828V10.7539C0 12.3711 0.199219 13.9922 0.199219 13.9922C0.199219 13.9922 0.394531 15.3711 0.992187 15.9766C1.75391 16.7734 2.75391 16.7461 3.19922 16.832C4.80078 16.9844 10 17.0313 10 17.0313C10 17.0313 14.2031 17.0234 17 16.8242C17.3906 16.7773 18.2422 16.7734 19.0039 15.9766C19.6055 15.3711 19.8008 13.9922 19.8008 13.9922C19.8008 13.9922 20 12.375 20 10.7539V9.23828C20 7.62109 19.8008 6 19.8008 6ZM7.93359 12.5938V6.97266L13.3359 9.79297L7.93359 12.5938Z" fill="black" />
+											</svg>
+										</i>
+										<span class="footer__social-text">
+											YouTube
+										</span>
+									</a>
+								</li>
+								<li class="footer__social-item">
+									<a href="" class="footer__social-link">
+										<i class="footer__social-icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M18.5958 1.40417C17.1875 0 14.925 0 10.4167 0H9.58333C5.075 0 2.8125 0 1.40417 1.40417C-0.00416666 2.80833 1.44185e-07 5.075 1.44185e-07 9.58333V10.4167C1.44185e-07 14.925 9.93411e-08 17.1875 1.40417 18.5958C2.80833 20.0042 5.075 20 9.58333 20H10.4167C14.9417 20 17.2042 20 18.6125 18.5958C20.0208 17.1917 20 14.925 20 10.4167V9.58333C20 5.075 20 2.8125 18.5958 1.40417ZM14.35 14.4083C14.1321 13.6277 13.6884 12.9288 13.0746 12.3995C12.4608 11.8702 11.7042 11.5341 10.9 11.4333V14.4083H10.6417C6.08333 14.4083 3.48333 11.2833 3.375 6.075H5.65833C5.73333 9.89167 7.41667 11.4917 8.75 11.8417V6.08333H10.9V9.375C12.2167 9.23333 13.6 7.73333 14.0667 6.08333H16.2167C16.0439 6.94136 15.6956 7.75441 15.1937 8.47143C14.6918 9.18846 14.0471 9.79399 13.3 10.25C14.1329 10.6631 14.8687 11.248 15.4591 11.9662C16.0495 12.6844 16.4809 13.5196 16.725 14.4167L14.35 14.4083Z" fill="black" />
+											</svg>
+										</i>
+										<span class="footer__social-text">
+											Вконтакте
+										</span>
+									</a>
+								</li>
+								<li class="footer__social-item">
+									<a href="" class="footer__social-link">
+										<i class="footer__social-icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 19.9995C0.214958 19.2136 0.419482 18.4673 0.62317 17.7205C0.869016 16.8198 1.11778 15.9195 1.35611 15.0167C1.37941 14.9195 1.3682 14.8172 1.32439 14.7274C0.364385 12.9844 -0.0530091 11.1153 0.113949 9.14015C0.353116 6.31271 1.59612 3.99033 3.7912 2.1901C5.01206 1.18469 6.4645 0.499791 8.0169 0.197456C12.655 -0.724987 17.1161 1.64832 19.0274 5.82144C19.7407 7.38124 20.0111 9.02161 19.8784 10.7242C19.5449 15.0062 16.3781 18.6509 12.185 19.5859C9.82129 20.1126 7.56027 19.8033 5.40192 18.7093C5.30563 18.6648 5.19723 18.6536 5.09388 18.6776C3.47982 19.095 1.86742 19.5174 0.255028 19.9394C0.183236 19.9569 0.111027 19.9728 0 19.9995ZM2.39418 17.632C2.48934 17.6091 2.56113 17.5928 2.63251 17.574C3.50904 17.3449 4.38557 17.1203 5.26209 16.8816C5.43907 16.8336 5.57305 16.8607 5.72749 16.9521C7.6379 18.0841 9.68105 18.4193 11.8494 17.9313C16.4825 16.8878 19.2878 12.0043 17.8599 7.47808C16.5589 3.35505 12.4421 0.966715 8.20723 1.88498C4.71447 2.64423 1.94715 5.7029 1.77267 9.56171C1.70047 11.157 2.05066 12.668 2.88545 14.0328C3.14966 14.4649 3.19599 14.8259 3.04114 15.2959C2.79195 16.0547 2.6108 16.8365 2.39418 17.632V17.632Z" fill="black" />
+												<path d="M4.93955 7.68217C4.95416 6.85406 5.27764 6.17287 5.86241 5.6048C5.94737 5.51749 6.04921 5.44838 6.16172 5.40167C6.27423 5.35495 6.39507 5.33161 6.51688 5.33307C6.65588 5.33307 6.79612 5.35394 6.93428 5.34017C7.22645 5.31137 7.39341 5.45495 7.49567 5.7033C7.77032 6.36112 8.05415 7.01559 8.30959 7.68092C8.35592 7.80155 8.32879 7.99438 8.2595 8.10666C8.07147 8.3973 7.86572 8.67609 7.64343 8.94145C7.5107 9.1059 7.49985 9.25199 7.60712 9.43231C8.41561 10.7897 9.53965 11.7768 11.0135 12.3591C11.213 12.438 11.3758 12.4067 11.5123 12.2339C11.7577 11.9242 12.0131 11.6228 12.2527 11.3077C12.3905 11.1253 12.5516 11.0572 12.7561 11.1516C13.4657 11.4855 14.1702 11.8194 14.8702 12.1696C14.9437 12.2063 15.0117 12.3307 15.0146 12.4171C15.043 13.1538 14.8289 13.7707 14.1723 14.2002C13.3551 14.7345 12.4969 14.7812 11.5845 14.5249C9.24414 13.868 7.50611 12.4046 6.11076 10.4729C5.65163 9.83426 5.22839 9.17644 5.04974 8.39675C4.99381 8.16426 4.97461 7.92134 4.93955 7.68217Z" fill="black" />
+											</svg>
+										</i>
+										<span class="footer__social-text">
+											WhatsApp
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__contacts-inner">
+							<div class="footer__contacts">
+								<a class="footer__phone" href="tel:+79274941965">8 927 494-19-65</a>
+								<span class="footer__contact-work">Работаем с 10:00 до 22:00</span>
+							</div>
+							<button class="btn__orange" type="button">Заказать звонок</button>
+						</div>
+					</div>
+					<div class="footer__row">
+						<div class="footer__col">
+							<a href="" class="footer__logo">
+								<img src="img/icons/logo_2.svg" alt="">
+							</a>
+						</div>
+						<div class="footer__col">
+							<h4 class="footer__title">
+								Меню
+							</h4>
+							<ul class="footer__list">
+								<li class="footer__list-item">
+									<a href="" class="footer__link">
+										Вок
+									</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="" class="footer__link">
+										Супы
+									</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="" class="footer__link">
+										Салаты
+									</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="" class="footer__link">
+										Сэндвич-роллы
+									</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="" class="footer__link">
+										Десерты
+									</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="" class="footer__link _all">
+										Все
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__col">
+							<h4 class="footer__title">
+								Клиенту
+							</h4>
+							<ul class="footer__list">
+								<li class="footer__list-item">
+									<a href="" class="footer__link">
+										Оплата и доставка
+									</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="" class="footer__link">
+										Калорийность и состав
+									</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="" class="footer__link">
+										Частые вопросы
+									</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="" class="footer__link">
+										Мой профиль
+									</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="" class="footer__link">
+										Регистрация
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__col">
+							<h4 class="footer__title">
+								Больше
+							</h4>
+							<ul class="footer__list">
+								<li class="footer__list-item">
+									<a href="" class="footer__link">
+										О компании
+									</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="" class="footer__link">
+										Отзывы
+									</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="" class="footer__link">
+										Наши контакты
+									</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="" class="footer__link">
+										Скидки
+									</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="" class="footer__link">
+										Новинки
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__col">
+							<h4 class="footer__title">
+								Приходите
+							</h4>
+							<div class="footer__bottom-contacts">
+								<div class="footer__address">
+									<p>улица Астрономическая, дом 13</p>
+									<span>Станция метро Площадь Тукая</span>
+								</div>
+
+								<div class="footer__wrap">
+									<a href="" class="btn__outline">
+										Показать на карте
+									</a>
+									<div class="footer__payment">
+										<div class="footer__payment-icon">
+											<img src="img/icons/mir.svg" alt="">
+										</div>
+										<div class="footer__payment-icon">
+											<img src="img/icons/visa.svg" alt="">
+										</div>
+										<div class="footer__payment-icon">
+											<img src="img/icons/mastercard.svg" alt="">
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<div class="footer__copy">
+							© 2022, Wok&Go - Китайская лапша в коробочках
+						</div>
+						<div class="footer__bottom-link">
+							<a href="">Политика конфиденциальности</a>
+						</div>
+						<div class="footer__bottom-link">
+							<a href="">Оферта</a>
+						</div>
+						<div class="footer__bottom-link">
+							<a href="">Карта сайта</a>
+						</div>
+						<div class="footer__bottom-link">
+							<a href="">Карта сайта</a>
+						</div>
+						<div class="footer__dev">
+							<span>Разработка и продвижение</span>
+							<img src="img/icons/everytech.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M20.3125 5.6875L5.6875 20.3125" stroke="#140A07" stroke-linecap="round" stroke-linejoin="round" />
+						<path d="M20.3125 20.3125L5.6875 5.6875" stroke="#140A07" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+
+				</button>
+				<div class="popup-product__row">
+					<div class="popup-product__image">
+						<img src="img/products/wok/5.png" alt="">
+					</div>
+					<div class="popup-product__body">
+						<span class="popup-product__weight">280 г</span>
+						<h2 class="popup-product__title">
+							Вок Классик с курочкой
+						</h2>
+						<p class="popup-product__text">
+							Курица, перец болгарский, фасоль стручковая, морковь, лук репчатый, фирменный соус, кунжут.
+						</p>
+						<div class="popup-product__body">
+							<h3>Выберите лапшу</h3>
+							<ul class="popup-product__list">
+								<li class="popup-product__list-item">
+									<div class="checkbox">
+										<input id="c_1" class="checkbox__input" type="checkbox" value="1">
+										<label for="c_1" class="checkbox__label">
+											<div class="checkbox__wrap">
+												<span class="checkbox__text">Лапша яичная</span>
+												<span class="checkbox__price">+ 0 ₽</span>
+											</div>
+										</label>
+									</div>
+								</li>
+								<li class="popup-product__list-item">
+									<div class="checkbox">
+										<input id="c_2" class="checkbox__input" type="checkbox" value="1">
+										<label for="c_2" class="checkbox__label">
+											<div class="checkbox__wrap">
+												<span class="checkbox__text">Лапша гречневая</span>
+												<span class="checkbox__price">+ 0 ₽</span>
+											</div>
+										</label>
+									</div>
+								</li>
+								<li class="popup-product__list-item">
+									<div class="checkbox">
+										<input id="c_3" class="checkbox__input" type="checkbox" value="1">
+										<label for="c_3" class="checkbox__label">
+											<div class="checkbox__wrap">
+												<span class="checkbox__text">Лапша фунчоза</span>
+												<span class="checkbox__price">+ 0 ₽</span>
+											</div>
+										</label>
+									</div>
+								</li>
+								<li class="popup-product__list-item">
+									<div class="checkbox">
+										<input id="c_4" class="checkbox__input" type="checkbox" value="1">
+										<label for="c_4" class="checkbox__label">
+											<div class="checkbox__wrap">
+												<span class="checkbox__text">Лапша пшеничная</span>
+												<span class="checkbox__price">+ 0 ₽</span>
+											</div>
+										</label>
+									</div>
+								</li>
+								<li class="popup-product__list-item">
+									<div class="checkbox">
+										<input id="c_5" class="checkbox__input" type="checkbox" value="1">
+										<label for="c_5" class="checkbox__label">
+											<div class="checkbox__wrap">
+												<span class="checkbox__text">Рис пропаренный</span>
+												<span class="checkbox__price">+ 0 ₽</span>
+											</div>
+										</label>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="popup-product__bottom">
+
+							<div class="product-card__controls">
+								<button type="button" class="popup-product__button js-add">
+									<div class="popup-product__wrap">
+										<span class="popup-product__text">
+											Добавить
+										</span>
+										<span class="popup-product__price">
+											275 ₽
+										</span>
+									</div>
+								</button>
+								<div class="popup-product__quantity quantity">
+									<div class="quantity__button quantity__button_minus _icon-minus"></div>
+									<div class="quantity__input">
+										<input autocomplete="off" type="text" value="1">
+									</div>
+									<div class="quantity__button quantity__button_plus _icon-plus"></div>
+								</div>
+							</div>
+
+
+
+
+							<ul class="popup-product__food-values">
+								<li class="popup-product__value-part">
+									Жиры · 8,7 г
+								</li>
+								<li class="popup-product__value-part">
+									Углеводы · 33,1 г
+								</li>
+								<li class="popup-product__value-part">
+									Энерг. ценность · 264,1 ккал
+								</li>
+								<li class="popup-product__value-part">
+									Белки · 11,5 г
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/app.min.js?_v=20230221083907"></script>
+</body>
+
+</html>
